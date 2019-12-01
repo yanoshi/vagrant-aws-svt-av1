@@ -20,7 +20,7 @@ echo EOF > .env
 EC2_ACCESS_KEY_ID="AAAAAAAAAAAAAA"
 EC2_SECRET_ACCESS_KEY="xxxxxxxxxxxxxxxxxxxxxx"
 EC2_KEYPAIR="foo"
-SSH_KEY_PATH="~/.ssh/foo.pem)"
+SSH_KEY_PATH="~/.ssh/foo.pem"
 
 # VM Config(no need to be changed)
 EC2_REGION="us-west-2" # US West Oregon
@@ -36,17 +36,6 @@ So if not accept ssh connection in your default Security Group, it does not work
 
 
 ## Usage
-### Quick start
-If you want to encode easily, please run this command:
-
-```
-./easy_encode.sh
-```
-
-This will start the instance and encode `input/*.mp4` to `output/*.mp4` , then destroy the instance.
-
-Note: if you want change encode config, please edit `easy_encode.sh`.
-
 ### Start the instance
 You can start instance at AWS(us-west-2) with just one line of command:
 ```
