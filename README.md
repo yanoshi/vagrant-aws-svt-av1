@@ -61,7 +61,7 @@ AWS:`/sync_folder/*` -> Host:`./sync_folder` :
 vagrant rsync-back
 ```
 
-WARN: It is the sync(not uplead and not download). So it might erase your data. (Use at your own risk.)
+WARN: It is the sync(not upload and not download). So it might erase your data. (Use at your own risk.)
 
 ### Example
 When this command run, you can encode `sync_folder/test_input.mp4` to `sync_folder/test_output.mp4`.
